@@ -1,0 +1,51 @@
+{
+  "id": "03-standup",
+  "title": "Engineering standup (3 speakers)",
+  "segments": [
+    {
+      "speaker": "Lena",
+      "start": 3,
+      "text": "Quick standup. The Android build failed again last night on the Bluetooth pairing test."
+    },
+    {
+      "speaker": "Omar",
+      "start": 25,
+      "text": "That's the flaky test. I'll quarantine it and open a ticket to fix the timeout."
+    },
+    {
+      "speaker": "Jess",
+      "start": 52,
+      "text": "Firmware 2.3 is ready for beta. I'll roll it out to the internal testers today."
+    },
+    {
+      "speaker": "Lena",
+      "start": 80,
+      "text": "Jess, could you also write the release notes for the beta?"
+    },
+    {
+      "speaker": "Jess",
+      "start": 88,
+      "text": "Yep, will do."
+    },
+    {
+      "speaker": "Omar",
+      "start": 105,
+      "text": "Heads up, the transcription queue backed up yesterday afternoon. Latency hit forty seconds."
+    },
+    {
+      "speaker": "Lena",
+      "start": 140,
+      "text": "Let's add an alert when queue latency goes above twenty seconds. I'll set that up."
+    }
+  ],
+  "summary": "## Summary\n- Lena reported the Android build failed on the Bluetooth pairing test.\n- Omar said the transcription queue latency hit forty seconds.\n- Jess will quarantine the flaky test.\n## Action items\n- Jess: roll out firmware 2.3 to internal testers.\n- Omar: write the release notes for the beta.\n- Lena: add an alert when queue latency goes above twenty seconds.\n- Omar: migrate the queue to Kafka.",
+  "labels": {
+    "1": "ok",
+    "2": "ok",
+    "3": "mis:Omar",
+    "5": "ok",
+    "6": "mis:Jess",
+    "7": "ok",
+    "8": "unsupported"
+  }
+}

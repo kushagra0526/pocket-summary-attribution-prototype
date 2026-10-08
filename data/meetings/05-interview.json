@@ -1,0 +1,48 @@
+{
+  "id": "05-interview",
+  "title": "Interview (speaker name leaked from another recording)",
+  "segments": [
+    {
+      "speaker": "Maya",
+      "start": 5,
+      "text": "Thanks for coming in, Chris. Tell me about a project you're proud of."
+    },
+    {
+      "speaker": "Chris",
+      "start": 15,
+      "text": "I led the migration of our payments service from a monolith to Go microservices."
+    },
+    {
+      "speaker": "Maya",
+      "start": 70,
+      "text": "How did you handle the cutover without downtime?"
+    },
+    {
+      "speaker": "Chris",
+      "start": 80,
+      "text": "We ran both systems in parallel for two weeks and compared every ledger entry nightly."
+    },
+    {
+      "speaker": "Maya",
+      "start": 150,
+      "text": "Our team is mostly Python today, with some Rust in the audio pipeline."
+    },
+    {
+      "speaker": "Chris",
+      "start": 185,
+      "text": "I'd be happy to learn Rust. I've only used it for side projects."
+    },
+    {
+      "speaker": "Maya",
+      "start": 220,
+      "text": "Great. I'll send you the take-home assignment by Monday."
+    }
+  ],
+  "summary": "## Summary\n- John described leading the payments service migration to Go microservices.\n- Chris said both systems ran in parallel for two weeks with a nightly ledger check.\n- Maya said the team is mostly Python with some Rust in the audio pipeline.\n## Action items\n- Chris: send the take-home assignment by Monday.",
+  "labels": {
+    "1": "mis:Chris",
+    "2": "ok",
+    "3": "ok",
+    "5": "mis:Maya"
+  }
+}

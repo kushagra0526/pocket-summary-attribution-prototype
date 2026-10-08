@@ -1,0 +1,12 @@
+{
+  "id": "07-paraphrase",
+  "title": "Stress test: summary paraphrases the transcript",
+  "segments": [
+    {"speaker": "Kofi", "start": 3, "text": "I'll ping the vendor about the late shipment this afternoon."},
+    {"speaker": "Ines", "start": 30, "text": "And I can take the customer call with Acme on Thursday."},
+    {"speaker": "Kofi", "start": 55, "text": "Ines, would you loop in finance on the refund?"},
+    {"speaker": "Ines", "start": 62, "text": "Sure thing."}
+  ],
+  "summary": "## Action items\n- Ines: contact the supplier regarding the delayed delivery.\n- Kofi: handle the Acme customer call on Thursday.\n- Kofi: involve finance in the refund.",
+  "labels": {"1": "mis:Kofi", "2": "mis:Ines", "3": "mis:Ines"}
+}

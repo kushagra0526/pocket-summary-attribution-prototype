@@ -1,0 +1,50 @@
+{
+  "id": "01-reading-group",
+  "title": "Reading group (2 speakers)",
+  "segments": [
+    {
+      "speaker": "Mark",
+      "start": 5,
+      "text": "Okay, let's start. Last week we finished chapter three of Ephesians."
+    },
+    {
+      "speaker": "Anna",
+      "start": 31,
+      "text": "Right. I think the passage on unity is the strongest part of the letter."
+    },
+    {
+      "speaker": "Mark",
+      "start": 62,
+      "text": "I found the household codes section harder to read, honestly."
+    },
+    {
+      "speaker": "Anna",
+      "start": 100,
+      "text": "For next week I'll write the discussion questions for chapter four."
+    },
+    {
+      "speaker": "Mark",
+      "start": 134,
+      "text": "Great. I'll book the community hall for Thursday evening."
+    },
+    {
+      "speaker": "Anna",
+      "start": 170,
+      "text": "Can we also invite the youth group? They asked about joining."
+    },
+    {
+      "speaker": "Mark",
+      "start": 200,
+      "text": "Yes, I'll email the youth group leader tonight."
+    }
+  ],
+  "summary": "## Summary\n- Anna said the passage on unity is the strongest part of the letter.\n- Mark found the household codes section harder to read.\n- Mark suggested inviting the youth group.\n## Action items\n- Mark: write the discussion questions for chapter four.\n- Mark: book the community hall for Thursday.\n- Anna: email the youth group leader.",
+  "labels": {
+    "1": "ok",
+    "2": "ok",
+    "3": "mis:Anna",
+    "5": "mis:Anna",
+    "6": "ok",
+    "7": "mis:Mark"
+  }
+}

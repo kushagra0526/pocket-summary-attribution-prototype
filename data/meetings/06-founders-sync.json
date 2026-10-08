@@ -1,0 +1,56 @@
+{
+  "id": "06-founders-sync",
+  "title": "Founders sync (3 speakers, hand-off)",
+  "segments": [
+    {
+      "speaker": "Ravi",
+      "start": 4,
+      "text": "Retail partners want the device in stores by November. We need forty thousand units."
+    },
+    {
+      "speaker": "Mei",
+      "start": 40,
+      "text": "The factory can do thirty thousand units in October if we lock the order this week."
+    },
+    {
+      "speaker": "Carlos",
+      "start": 75,
+      "text": "Cash wise we can cover the deposit, but I want the payment terms at net sixty."
+    },
+    {
+      "speaker": "Ravi",
+      "start": 110,
+      "text": "Mei, can you negotiate net sixty with the factory?"
+    },
+    {
+      "speaker": "Mei",
+      "start": 118,
+      "text": "Yes, I'll call them tomorrow morning."
+    },
+    {
+      "speaker": "Carlos",
+      "start": 150,
+      "text": "I'll update the cash forecast with the new order size."
+    },
+    {
+      "speaker": "Mei",
+      "start": 180,
+      "text": "We should also redesign the packaging for retail shelves."
+    },
+    {
+      "speaker": "Ravi",
+      "start": 200,
+      "text": "Agreed, I'll brief the design agency on the packaging."
+    }
+  ],
+  "summary": "## Summary\n- Ravi said retail partners want the device in stores by November.\n- Carlos said the factory can do thirty thousand units in October.\n- Mei suggested redesigning the packaging for retail shelves.\n## Action items\n- Ravi: negotiate net sixty with the factory.\n- Carlos: update the cash forecast with the new order size.\n- Mei: brief the design agency on the packaging.\n- Carlos: book freight for the November shipment.",
+  "labels": {
+    "1": "ok",
+    "2": "mis:Mei",
+    "3": "ok",
+    "5": "mis:Mei",
+    "6": "ok",
+    "7": "mis:Ravi",
+    "8": "unsupported"
+  }
+}

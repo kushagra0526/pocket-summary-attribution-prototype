@@ -1,0 +1,55 @@
+{
+  "id": "02-sales-call",
+  "title": "Sales call (3 speakers, hand-off)",
+  "segments": [
+    {
+      "speaker": "Priya",
+      "start": 4,
+      "text": "Thanks for making time, Tom. Today I want to walk through pricing and the security review."
+    },
+    {
+      "speaker": "Tom",
+      "start": 40,
+      "text": "Our main concern is single sign-on. Our IT team requires SAML for every vendor."
+    },
+    {
+      "speaker": "Dev",
+      "start": 75,
+      "text": "We support SAML with Okta and Azure AD today, and SCIM provisioning is on the roadmap for March."
+    },
+    {
+      "speaker": "Tom",
+      "start": 118,
+      "text": "Good. Legal will also need your SOC 2 report before we can sign."
+    },
+    {
+      "speaker": "Priya",
+      "start": 150,
+      "text": "Dev, can you send Tom the SOC 2 report and the security questionnaire?"
+    },
+    {
+      "speaker": "Dev",
+      "start": 161,
+      "text": "Sure, I'll get both over by Wednesday."
+    },
+    {
+      "speaker": "Tom",
+      "start": 190,
+      "text": "On pricing, we'd need annual billing and a discount above two hundred seats."
+    },
+    {
+      "speaker": "Priya",
+      "start": 225,
+      "text": "I'll put together an annual quote for two hundred and fifty seats."
+    }
+  ],
+  "summary": "## Summary\n- Tom said their IT team requires SAML for every vendor.\n- Priya said SCIM provisioning is on the roadmap for March.\n- Tom asked for annual billing and a discount above two hundred seats.\n## Action items\n- Priya: send Tom the SOC 2 report and security questionnaire by Wednesday.\n- Dev: prepare an annual quote for two hundred and fifty seats.\n- Dev: schedule a demo of SCIM for the IT team next week.",
+  "labels": {
+    "1": "ok",
+    "2": "mis:Dev",
+    "3": "ok",
+    "5": "mis:Dev",
+    "6": "mis:Priya",
+    "7": "unsupported"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "04-phone-call",
+  "title": "Phone call via contact mic (2 speakers, unnamed request)",
+  "segments": [
+    {
+      "speaker": "Rosa",
+      "start": 2,
+      "text": "Riverside Clinic, this is Rosa. How can I help?"
+    },
+    {
+      "speaker": "Sam",
+      "start": 8,
+      "text": "Hi, I need to move my physio appointment from Tuesday to Friday morning."
+    },
+    {
+      "speaker": "Rosa",
+      "start": 20,
+      "text": "Friday at nine thirty is open. I'll move you to that slot."
+    },
+    {
+      "speaker": "Sam",
+      "start": 35,
+      "text": "Perfect. Also my insurance changed, I have a new member card."
+    },
+    {
+      "speaker": "Rosa",
+      "start": 48,
+      "text": "Then please bring the new insurance card on Friday so we can update your file."
+    },
+    {
+      "speaker": "Sam",
+      "start": 62,
+      "text": "Will do. I'll bring it."
+    }
+  ],
+  "summary": "## Summary\n- Sam asked to move the physio appointment from Tuesday to Friday.\n- Rosa said the insurance changed and there is a new member card.\n## Action items\n- Rosa: move Sam's appointment to Friday at nine thirty.\n- Rosa: bring the new insurance card on Friday.",
+  "labels": {
+    "1": "ok",
+    "2": "mis:Sam",
+    "4": "ok",
+    "5": "mis:Sam"
+  }
+}
